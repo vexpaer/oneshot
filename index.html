@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Six browser experiences created as Fable 5.1 OneShot projects." />
+  <title>OneShot · Fable 5.1 Gallery</title>
+  <style>
+    :root { color-scheme: dark; --bg:#08090d; --panel:#11131a; --text:#f4f5f7; --muted:#9ea4b2; --line:#242834; --accent:#d8ff68; }
+    * { box-sizing: border-box; }
+    body { margin:0; min-height:100vh; font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; background:radial-gradient(circle at 15% 0%,#1a2030 0,transparent 34%),radial-gradient(circle at 90% 10%,#1b2417 0,transparent 28%),var(--bg); color:var(--text); }
+    main { width:min(1180px,calc(100% - 40px)); margin:0 auto; padding:72px 0 88px; }
+    .eyebrow { display:inline-flex; align-items:center; gap:9px; padding:7px 11px; border:1px solid var(--line); border-radius:999px; color:#d8dde7; background:#0e1016cc; font-size:12px; letter-spacing:.08em; text-transform:uppercase; }
+    .dot { width:8px; height:8px; border-radius:50%; background:var(--accent); box-shadow:0 0 18px var(--accent); }
+    h1 { margin:22px 0 10px; font-size:clamp(44px,8vw,92px); line-height:.92; letter-spacing:-.055em; }
+    .lead { max-width:760px; margin:0 0 44px; color:var(--muted); font-size:clamp(16px,2vw,20px); line-height:1.65; }
+    .lead strong { color:var(--text); font-weight:650; }
+    .grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; }
+    .card { position:relative; min-height:248px; padding:26px; overflow:hidden; border:1px solid var(--line); border-radius:24px; background:linear-gradient(145deg,#151821 0%,#0e1016 72%); display:flex; flex-direction:column; transition:transform .2s ease,border-color .2s ease,background .2s ease; }
+    .card:hover { transform:translateY(-4px); border-color:#3b4252; background:linear-gradient(145deg,#191d27 0%,#101219 72%); }
+    .num { position:absolute; right:22px; top:15px; font-size:62px; font-weight:800; color:#ffffff0c; letter-spacing:-.08em; }
+    .tag { width:max-content; margin-bottom:42px; color:#c7ccd7; font-size:12px; letter-spacing:.05em; }
+    .card h2 { margin:auto 0 8px; max-width:88%; font-size:28px; line-height:1.08; letter-spacing:-.035em; }
+    .card p { margin:0 0 22px; color:var(--muted); line-height:1.55; font-size:14px; }
+    .open { display:inline-flex; align-items:center; justify-content:space-between; gap:14px; width:100%; padding-top:16px; border-top:1px solid var(--line); color:var(--text); text-decoration:none; font-weight:620; }
+    .arrow { font-size:20px; transition:transform .18s ease; }
+    .card:hover .arrow { transform:translateX(4px); }
+    footer { display:flex; justify-content:space-between; gap:16px; margin-top:30px; color:#737a89; font-size:12px; }
+    @media (max-width:760px) { main { width:min(100% - 24px,1180px); padding-top:42px; } .grid { grid-template-columns:1fr; } .card { min-height:228px; } footer { flex-direction:column; } }
+  </style>
+</head>
+<body>
+  <main>
+    <span class="eyebrow"><span class="dot"></span> Fable 5.1 · OneShot Collection</span>
+    <h1>OneShot.</h1>
+    <p class="lead">这里收录 6 个浏览器 3D 实验。<strong>以下六个网页均由 Fable 5.1 以 OneShot 方式一次生成。</strong> 点击任意卡片进入独立作品。</p>
+    <section class="grid" aria-label="Fable 5.1 OneShot projects">
+      <article class="card"><span class="num">01</span><span class="tag">Fable 5.1 · OneShot</span><h2>山城校园 3D</h2><p>可探索的复杂山地校园沙盒，包含创造与战斗玩法。</p><a class="open" href="./school-sandbox/">进入网页 <span class="arrow">→</span></a></article>
+      <article class="card"><span class="num">02</span><span class="tag">Fable 5.1 · OneShot</span><h2>Nature Explorer</h2><p>在程序化 3D 山谷中自由探索季节、昼夜、湖泊与微观世界。</p><a class="open" href="./nature-explorer/">进入网页 <span class="arrow">→</span></a></article>
+      <article class="card"><span class="num">03</span><span class="tag">Fable 5.1 · OneShot</span><h2>Cardistry Lab · 花切实验室</h2><p>使用 3D 双手与扑克牌展示、拆解和对比常见花切动作。</p><a class="open" href="./cardistry-lab/">进入网页 <span class="arrow">→</span></a></article>
+      <article class="card"><span class="num">04</span><span class="tag">Fable 5.1 · OneShot</span><h2>Desk Wars</h2><p>缩小到桌面世界，在键盘、杯子和台灯之间进行 3D 波次射击。</p><a class="open" href="./desk-wars/">进入网页 <span class="arrow">→</span></a></article>
+      <article class="card"><span class="num">05</span><span class="tag">Fable 5.1 · OneShot</span><h2>紫禁春秋 · 甄嬛传</h2><p>围绕恩宠、圣心、心机、人脉与甘露寺转生展开的 3D 增量游戏。</p><a class="open" href="./zhen-huan-incremental/">进入网页 <span class="arrow">→</span></a></article>
+      <article class="card"><span class="num">06</span><span class="tag">Fable 5.1 · OneShot</span><h2>甄嬛传 · 六宫</h2><p>从秀女一路晋升到太后的 3D 放置 / 增量玩法。</p><a class="open" href="./zhen-huan-idle/">进入网页 <span class="arrow">→</span></a></article>
+    </section>
+    <footer><span>vexpaer / oneshot</span><span>Six pages · all created by Fable 5.1 OneShot</span></footer>
+  </main>
+</body>
+</html>
